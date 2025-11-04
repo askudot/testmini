@@ -4,10 +4,6 @@
   "icon_url": "/icon.png",
   "start_url": "/",
   "splash_image_url": "/splash.png",
-  "splash_background_color": "#ffffff",
-  "accountAssociation": {
-    "header": "eyJmaWQiOjE4OTcxLCJ0eXBlIjoiY3VzdG9keSIsImtleSI6IjB4MjIyRTFjY0QwYTA1MzBkZDlFZTE0ODFhN2U3NTFGNEZBNDM0MmFjMiJ9",
-    "payload": "eyJkb21haW4iOiJ0ZXN0bWluaS10ZW4udmVyY2VsLmFwcCJ9",
-    "signature": "NgWUjFdlIZEWq6zLxtAeFTkhX2pP8I5af5dK5lVMcrRXf/0LkLlok+bDzAX7rYdHW3j/RsqABcOmtWymohcGmRw="
+  "splash_background_color": "#ffffff"
+  
   }
-}
