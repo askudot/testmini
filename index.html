@@ -3,15 +3,38 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Create Mini App</title>
+    <title>TestMini</title>
+
+    <!-- Mini App Embed (untuk "Embed Present/Valid") -->
+    <meta
+      name="fc:miniapp"
+      content='{
+        "version": "1",
+        "imageUrl": "https://mazelike-callan-resistlessly.ngrok-free.dev/og.png",
+        "button": {
+          "title": "Open",
+          "action": {
+            "type": "launch_frame",
+            "name": "TestMini",
+            "url": "https://mazelike-callan-resistlessly.ngrok-free.dev/",
+            "splashImageUrl": "https://mazelike-callan-resistlessly.ngrok-free.dev/splash.png",
+            "splashBackgroundColor": "#6200EA"
+          }
+        }
+      }'
+    />
   </head>
+
   <body>
     <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
-    <script type="module">
-  import { sdk } from 'https://esm.sh/@farcaster/miniapp-sdk';
-  // ... gunakan sdk seperti di atas
-</script>
 
+    <!-- bundle utama Vite -->
+    <script type="module" src="/src/main.tsx"></script>
+
+    <!-- SDK ESM (boleh dipertahankan kalau belum pakai npm) -->
+    <script type="module">
+      import { sdk } from "https://esm.sh/@farcaster/miniapp-sdk";
+      // tidak wajib isi di sini, karena kamu sudah pakai di App.tsx
+    </script>
   </body>
 </html>
