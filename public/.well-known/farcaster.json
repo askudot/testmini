@@ -1,0 +1,8 @@
+{
+  "name": "TestMini",
+  "description": "Show my Farcaster username & fid",
+  "icon_url": "/icon.png",
+  "start_url": "/",
+  "splash_image_url": "/splash.png",
+  "splash_background_color": "#ffffff"
+}
